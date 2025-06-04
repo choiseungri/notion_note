@@ -1,0 +1,13 @@
+{
+  "name": "Notion Panel Window",
+  "description": "Open a webpage in a panel-like window and remember the last visited page.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Open Notion Panel"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "windows", "system.display", "tabs"]
+}
